@@ -48,7 +48,7 @@ With the objectives in mind, and realizing that my workload system would almost 
 
 
 ## Background Research
-Before starting on this endeavor, I did a lot of research to see how likely I’d be able to succeed.  The two best sources I found was the [eGPU.io](htttpps://egpu.io) site with many reviews and descriptions of how well specific configurations worked (or didn’t).  They also have nice “best laptop for eGPU” and [Best eGPU Enclosures](https://egpu.io/best-egpu-buyers-guide/) matrices.
+Before starting on this endeavor, I did a lot of research to see how likely I’d be able to succeed.  The two best sources I found was the [eGPU.io](htttpps://egpu.io) site with many reviews and descriptions of how well specific configurations worked (or didn’t).  They also have nice "best laptop for eGPU" and [Best eGPU Enclosures](https://egpu.io/best-egpu-buyers-guide/) matrices.
 
 ### Nvidia drivers and Ubuntu
 Installing Nvidia drivers under #Ubuntu is pretty straightforward these days, with a one-click install option built-in to the operating system itself.  The user can choose between versions, and my research showed that most applications required either version 525 or 530.  I installed 530.
@@ -62,7 +62,7 @@ Installing Nvidia drivers under #Ubuntu is pretty straightforward these days, wi
 ### eGPU information
 The best two sources I found for information on configuring and using eGPUs were:
 - [r/eGPU](https://www.reddit.com/r/eGPU) on reddit
-	- their “so you’re thinking about an eGPU” [guide](https://www.reddit.com/r/eGPU/comments/5jpf2x/diy_egpu_101_introduction_to_egpu/)
+	- their "so you’re thinking about an eGPU" [guide](https://www.reddit.com/r/eGPU/comments/5jpf2x/diy_egpu_101_introduction_to_egpu/)
 - [egpu.io](https://egpu.io/)  
 
 ## Proof-of-concept
@@ -72,7 +72,7 @@ Having read a fair amount about the flakiness of certain #eGPU setups, I approac
   - The *Chroma* version has what is basically an USB hub in the back with 4 USB 3.x ports and an ethernet jack added to the plain Core X version
 My thinking was that this system could not only provide GPU, but also act as an easy dock-hub for my primary computers.  This didn’t work out quite as I planned (more in the next post).
 
-The included thunderbolt cable is connected from the NUC to the eGPU.  Theoretically, the standard peripherals (keyboard, mouse, etc.) should be connected to the eGPU hub and everything will “just work”.  However, in my testing, things worked best with the peripheral hub I use plugged into the NUC and only the #Thunderbolt cable plugged into the enclosure.   In the spirit of IT troubleshooters everywhere: start by making the least amount of change and iterate from there.
+The included thunderbolt cable is connected from the NUC to the eGPU.  Theoretically, the standard peripherals (keyboard, mouse, etc.) should be connected to the eGPU hub and everything will "just work".  However, in my testing, things worked best with the peripheral hub I use plugged into the NUC and only the #Thunderbolt cable plugged into the enclosure.   In the spirit of IT troubleshooters everywhere: start by making the least amount of change and iterate from there.
 
 
 
@@ -99,7 +99,7 @@ I ended [part one](https://infosec.press/ktneely/using-an-egpu-to-provide-critic
 I paired the Razer Core X Chrome with a recent (late 2020) Intel NUC  I chose this one because they had great compattibility results in most of the articles I was reading, and I liked the USB hub and ethernet portt in the back of the device.  In retrospect, I probably would have been better off with the plain Razer Core X.  The hub’s functionality has been flaky in my experience, sometimes working with the Ubuntu NUC, 
 
 
-<img src=“https://pixel.infosec.exchange/storage/m/_v2/540237025755407403/186f813ba-297a89/k5Ww3UFVFsYQ/Qvwu2CdMiGvfslkLzDkZsptmTVkmU46kodTc4ECT.jpg”   title=”GPUs” width=”150” alt=“image showing an Nvidia GTX 1060(bottom) and an RTX 3090 above. The 3090 is twice the size of the 1060”/>
+<img src="https://pixel.infosec.exchange/storage/m/_v2/540237025755407403/186f813ba-297a89/k5Ww3UFVFsYQ/Qvwu2CdMiGvfslkLzDkZsptmTVkmU46kodTc4ECT.jpg"   title="GPUs" width="150" alt="image showing an Nvidia GTX 1060(bottom) and an RTX 3090 above. The 3090 is twice the size of the 1060"/>
 
 
 
@@ -129,7 +129,7 @@ I haven’t yet upgraded my laptop or any other Windows system to something with
 
 ## Day to day experience
 
-So far, the games have worked *okay*.  That is to say that on an older NUC with a lower CPU (it’s purpose was mostly to have decent memory for many low-impact #Docker containers, and sufficient high-speed storage for database seeks) has been pretty good.  This is my “workhose” system: something I expect to use for long-running, non-interactive jobs, and it seems to do them excellently.  When the system 
+So far, the games have worked *okay*.  That is to say that on an older NUC with a lower CPU (it’s purpose was mostly to have decent memory for many low-impact #Docker containers, and sufficient high-speed storage for database seeks) has been pretty good.  This is my "workhose" system: something I expect to use for long-running, non-interactive jobs, and it seems to do them excellently.  When the system 
 
 
 ### Games
