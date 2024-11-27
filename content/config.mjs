@@ -1,9 +1,10 @@
 
 /**
  * @type {import("../config/siteConfig").UserConfig}
+ 
+export default {};
  */
 
-export default {};
 
 const config = {
   title: "Blog 9 from Outer Space",
