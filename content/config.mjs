@@ -12,7 +12,7 @@ const config = {
   author: "Kevin",
   defaultAuthor: "ktneely",
   // links to the pages you want to link to in the navbar and in the footer
-  navLinks: [{ href: "/about", name: "About" }],
+  navLinks: [{ href: "/blog", name: "Blog" },{ href: "/projects", name: "Projects" },{ href: "/research", name: "Research" },{ href: "/about", name: "About" }],
 };
 
 export default config;
