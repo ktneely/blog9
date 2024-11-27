@@ -4,6 +4,7 @@
 - [@ktneely@infosec.exchange](https://infosec.exchange/ktneely) - Mastodon on InfoSec Exchange
 - [Write.as blog](https://infosec.press/ktneely) - blog where I post more thought-out posts
 - [My GitHub](https://github.com/ktneely) 
+- [@ktneely@bookrastinating.com](https://bookrastinating.com/user/ktneely) - A [bookwyrm](https://joinbookwyrm.com/) instance with books I've read, want to read, and sometimes have reviewed.
 
 
 # Resume / CV
