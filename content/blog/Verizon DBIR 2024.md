@@ -10,11 +10,10 @@ date: 2024-05-01
 title: Verizon DBIR 2024
 ---
 
-# 2024 Data Breach Investigations Report (DBIR)
-(Full doc attached at the end)
 The annual Verizon [Data Breach Investigation Report](https://www.verizon.com/business/resources/T611/reports/2024-dbir-data-breach-investigations-report.pdf) is out, and along with it an accounting of the #cybersecurity compromise and data breach happenings for the past year.  As always, it's filled with data analysis and some trending commentary from the previous DBIR report.
 
-The following is a TL;DR summary generated using [fabric](https://github.com/danielmiessler/fabric) by Daniel Miessler.
+The following is a TL;DR summary generated using [[Fabric]] by Daniel Miessler as a kind of experiment in how quickly and accurately we can distill a long report into usable information by using  an #LLM and a good prompt.
+
 ## ONE-SENTENCE-SUMMARY:
 The 2024 DBIR reveals a significant rise in vulnerability exploitation and ransomware attacks, emphasizing the urgent need for enhanced cybersecurity measures.
 
@@ -71,5 +70,3 @@ The 2024 DBIR reveals a significant rise in vulnerability exploitation and ranso
 - Establish robust data backup and recovery processes to minimize the impact of ransomware.
 - Monitor for unusual activity indicating the misuse of privileges by internal actors.
 
-
-![[2024-dbir-data-breach-investigations-report.pdf]]
