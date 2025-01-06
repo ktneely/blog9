@@ -1,6 +1,9 @@
 ---
 date: 2024-08-13
 title: DEFCON 32 in Review
+tags:
+  - DEFCON
+  - conference
 ---
 Some quick notes about DEFCON this year.
 
