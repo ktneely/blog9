@@ -1,7 +1,7 @@
 ---
 id: ktneely
 name: Kevin Neely
-avatar: assets/Kevin-Headshot.png
+avatar: ../assets/Kevin-Headshot.png
 ---
 
 Kevin is a cybersecurity professional and leader.  He has created and led multiple security teams, built all kinds of infrastructure to support information security work, attended law school, racked servers, administered Active Directory, and crimped RJ-45 jacks onto ethernet cables. 
