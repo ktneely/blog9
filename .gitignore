@@ -8,3 +8,4 @@ out/
 tsconfig.tsbuildinfo
 .vscode/
 .idea/
+*.code-workspace
