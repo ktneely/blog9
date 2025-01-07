@@ -7,9 +7,9 @@ This site is essentially one part [[research|notes]], one part [[blog]], and one
 
 ### Navigation Tips
 
-First, look at the top and the bottom of each page, there's a navigation
-
-Take a look at [[OrgStructure]]
+Sectional navigation is at the top and bottom of every page.  The primary sections are:
+- [blog](../blog) 
+- [[research/index|research topics]] - Notes. About topics. 
 
 ### For the curious...
 
