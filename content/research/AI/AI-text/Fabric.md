@@ -4,6 +4,7 @@ tags:
   - CLI
   - software
   - tool
+  - research
 ---
 
 # About Fabric
