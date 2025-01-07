@@ -40,6 +40,10 @@ GOOGLE_API_KEY=key
 
 ### Updating
 
-Fabric --or at least its patterns-- is being updated regularly.  To pull and install the latest code and patterns, executet he following from the same directory created during the installation step above
+> [!NOTE] Fabric now written in Go
+>  If you were on an early (pre-Oct 2024) version of Fabric, check the documentation because the project has been migrated from python to go.
 
-`git pull; pipx install . --force; fabric --update; source ~/.zshrc (or ~/.bashrc)`
+Fabric is being updated regularly.  To pull and install the latest code and patterns, execute the following from the same directory created during the installation step above. 
+
+**update command:**
+`go install github.com/danielmiessler/fabric@latest`
