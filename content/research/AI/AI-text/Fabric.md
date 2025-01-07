@@ -27,7 +27,7 @@ go install github.com/danielmiessler/fabric@latest
 
 ### Configuration
 
-On Linux, the configuration file is located in `~/.config/fabric/.env` and this stores the parameters and API keys for the inference servers it uses.  The setup script will create and update this with settings.  It can also be updated manually; the following is an example that has a key for #OpenAI , YouTube, and an [[ollama]] inference server running on another system running on the LAN
+On Linux, the configuration file is located in `~/.config/fabric/.env` and this stores the parameters and API keys for the inference servers it uses.  The setup script will create and update this with settings.  It can also be updated manually; the following is an example that has a key for #OpenAI , YouTube, and an [[Ollama]] inference server running on another system running on the LAN
 
 ```
 OPENAI_API_KEY=key
