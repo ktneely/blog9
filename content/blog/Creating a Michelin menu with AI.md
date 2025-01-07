@@ -1,5 +1,9 @@
 ---
+author: ktneely
 date: 2024-07-11
+tags: 
+  - AI
+  - food
 title: Creating a Michelin menu with AI
 ---
 
