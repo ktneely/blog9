@@ -14,6 +14,7 @@ The annual Verizon [Data Breach Investigation Report](https://www.verizon.com/bu
 
 The following is a TL;DR summary generated using [[Fabric]] by Daniel Miessler as a kind of experiment in how quickly and accurately we can distill a long report into usable information by using  an #LLM and a good prompt.
 
+
 ## ONE-SENTENCE-SUMMARY:
 The 2024 DBIR reveals a significant rise in vulnerability exploitation and ransomware attacks, emphasizing the urgent need for enhanced cybersecurity measures.
 
