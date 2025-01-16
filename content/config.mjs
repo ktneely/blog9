@@ -7,15 +7,15 @@ export default {};
 
 
 const config = {
-  title: "Blog 9 draft title from Outer Space",
-  description: "A digital garden with some flowers among all the weeds",
+  title: "The 15th Standard - Usable Cybersecurity",
+  description: "A digital garden of Information and Cybersecurity documents, tools, and advice",
   author: "Kevin Neely",
   defaultAuthor: "ktneely",
-  # domain: "https://blog9-zeta.vercel.app/",
   domain: "https://the15thstandard.com",
   // links to the pages you want to link to in the navbar and in the footer
   navLinks: [
     { href: "/blog", name: "Blog" },
+    { href: "/infosec", name: "InfoSec" },
     { href: "/projects", name: "Projects" },
     { href: "/research", name: "Research" },
     { href: "/about", name: "About" }
