@@ -14,5 +14,10 @@ Kevin is a cybersecurity professional and leader.  He has created and led multip
   - [LinkedIn profile](https://www.linkedin.com/in/kevintneely/)
   - [Write.as blog](https://infosec.press/ktneely) - blog where I post more thought-out posts, hosted on https://infosec.press
   - [My GitHub](https://github.com/ktneely) 
+  - My [TryHackMe profile](https://tryhackme.com/r/p/bogart) and associated badge
+    ![TryHackMe badge stats](https://tryhackme-badges.s3.amazonaws.com/bogart.png)
   - [@ktneely@bookrastinating.com](https://bookrastinating.com/user/ktneely) - a [bookwyrm](https://joinbookwyrm.com/) instance with books I've read, want to read, and sometimes have reviewed.
+
+
+
 
