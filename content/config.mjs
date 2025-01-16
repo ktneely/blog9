@@ -27,7 +27,8 @@ const config = {
   nextSeo: {
     title: "The 15th Standard",
     description: "This site covers cybersecurity leadership and advice regarding the building of cyber and information security programs for successful companies.",
-  }
+  },
+  contentExclude: ["/templates"],
 };
 
 export default config;
