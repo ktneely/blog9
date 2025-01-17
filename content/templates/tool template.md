@@ -1,10 +1,12 @@
 ---
 author: ktneely
-title: {{title}}
-tags: 
+title:
+  "{ title }": 
+tags:
   - tool
   - infosec
-date_created: {{date}}
+date_created:
+  "{ date }":
 ---
 # {{Title}}
 
