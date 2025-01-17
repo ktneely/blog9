@@ -16,6 +16,7 @@ const config = {
   navLinks: [
     { href: "/blog", name: "Blog" },
     { href: "/infosec", name: "InfoSec" },
+    { href: "/linux", name: "Linux" },
     { href: "/projects", name: "Projects" },
     { href: "/research", name: "Research" },
     { href: "/about", name: "About" }
@@ -28,7 +29,7 @@ const config = {
     title: "The 15th Standard",
     description: "This site covers cybersecurity leadership and advice regarding the building of cyber and information security programs for successful companies.",
   },
-  contentExclude: ["/templates/tool template"],
+  contentExclude: [],
 };
 
 export default config;
