@@ -17,18 +17,29 @@ remmina  (built-in)
 
 
 ## Screenshot program
-- screenshot
-   - Builtin
-- Shutter
+
+### screenshot
+The builtin option
+
+### Shutter
    - Install shutter:
-`sudo add-apt-repository -y ppa:linuxuprising/shutter
+```
+sudo add-apt-repository -y ppa:linuxuprising/shutter
 sudo apt-get update
 sudo apt-get install -y shutter
+```
+
+Notes:
    - In 18.04+ it relies upon old packages for editing
    - Shutter requires an additional [configuration to enable editing](https://itsfoss.com/shutter-edit-button-disabled/) 
    - restart shutter, if necessary `sudo killall shutter`
-- Flameshot
-   - download AppImage
+
+### Flameshot
+
+Flameshot is a modern screenshotting program with lots of pre- and post-capture options to configure.
+   - it is available as an AppImage
+   - [Linux installation instructions](https://flameshot.org/docs/installation/installation-linux/)
+
 
 ## Networking Tools & Troubleshooting
 ### Curl
@@ -44,3 +55,5 @@ Dig
 `sudo apt install inetutils-traceroute`
 
 ## VPN
+- OpenVPN is the most common VPN client used on Linux systems
+- Palo Alto Networks' GlobalProtect does run on Linux in both GUI and CLI modes
