@@ -82,7 +82,7 @@ Sometimes a full install is not required.  This is where [Kali's Metapackages](h
 
 
 
-# Install Kali in Windows Services for Linux  (WSL)
+## Install Kali in Windows Services for Linux  (WSL)
 Kali on Windows has a base install “kex” and this can be run in some different modes, such as seamless, in a window, etc.
 
 [Install instructions](https://www.kali.org/docs/wsl/win-kex/)
@@ -98,6 +98,7 @@ Seamless mode merges Kali with your Windows environment
 
 
 
-Build a Kali Hackbox in AWS
 
-Cloud formation template by ehelbig1:  <https://github.com/ehelbig1/hackbox_aws>
+## Build a Kali Hackbox in AWS
+
+[Cloud formation template](https://github.com/ehelbig1/hackbox_aws) for a Kali EC2 instance by ehelbig1
