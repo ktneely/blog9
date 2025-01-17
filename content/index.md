@@ -1,4 +1,4 @@
-# Infosec Notebook / Digital Garden
+# A Cybersecurity Notebook
 
 
 ## Welcome to the Fifteenth Standard!
