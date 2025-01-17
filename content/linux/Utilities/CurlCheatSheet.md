@@ -20,7 +20,7 @@ title: CurlCheatSheet
 | **Basic auth**           | **read cookies**        | **write cookies** | **send cookies** | **user-agent** |
 | -u user:password         | -b "filename"           | -c "filename"     | -b "c=1; d=2"    | -A "string"    |
 | **Use proxy**            | **Headers, add/remove** | **follow redirs** | **gzip**         | **insecure**   |
-| -x <host:port>           | -H "name: value"        | -L                | --compressed     | -k             |
+| -x host:port             | -H "name: value"        | -L                | --compressed     | -k             |
 |                          | -H "name:"              |                   |                  |                |
 
 
