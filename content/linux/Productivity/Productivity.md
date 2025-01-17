@@ -53,14 +53,22 @@ If MS Office is a necessity, then a VM is the best choice
 - Install office from O365
 
 ## PDF
-See FoxitReader for a separate app
+
+### Web client
+- modern web browsers do a good job of supporting PDF files
+
+### Ghostview
+an oldie and a goodie, and installing on Debian-based distros is a breeze:
+
+`sudo apt install gv`
+
 
 ## Slack
-- Download
+- [Download](slack.com/download)
 - Install w/ `dpkg`
 
 ## Todoist
-Install “todoist for Chrome” and configure a Chrome applet
+Install todoist for Chrome and configure a Chrome applet
 
 
 
@@ -76,16 +84,7 @@ See [VirtualMachines](VirtualMachines.md) for installing & configuring
 
 
 ## Xmind
-The latest Xmind supports linux and is available from <https://xmind.net> 
-
-
-Old Xmind8:
-Working: yes
-Details:
-- Installed in `/opt/Xmind`
-Issues: 
-- Must start from within the path where installed
-- add `--add-modules=ALL-SYSTEM` to `XMind.ini` if using Java 10. (comment out for Java 8.
+The latest Xmind supports Linux and is available [to download](https://xmind.app/download/) as a snap, Flatpak, or native .deb installer.
 
 ## Xournal
 
