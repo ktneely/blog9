@@ -6,8 +6,6 @@ tags:
   - infosec
 date_created: {{date}}
 ---
-
-
 # {{Title}}
 
 ## Overview
@@ -21,9 +19,12 @@ date_created: {{date}}
 
 ## Setup
 
+
 ### Running {{Title}} in Docker
 
+
 #### The `.env` configuration file
+
 
 ```ini
 
@@ -31,6 +32,7 @@ date_created: {{date}}
 
 
 #### The `docker-compose.yml` launch file
+
 ```yaml
 
 ```
