@@ -29,10 +29,10 @@ Really, this is all one needs for a fully-functioning computing environment   (d
 
 
 - Use in-browser version
-- Geeknote <http://www.geeknote.me/>
+	- a Linux client is or was available in beta, I'm not sure what the status is.
+- [Geeknote](http://www.geeknote.me/)
 - Geeknote in Emacs  <https://github.com/avendael/emacs-geeknote>
 - Geeknote in ZSH  
-
 
 ## FoxitReader
 - For PDFs
