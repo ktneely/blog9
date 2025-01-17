@@ -18,7 +18,7 @@ Run it with exposing a port for the GUI via RDP, if desired.  Note this assumes 
 
 
 Optional Enable the GUI 
-Instructions: <https://www.kali.org/docs/general-use/xfce-with-rdp/>  
+- [Instructions](https://www.kali.org/docs/general-use/xfce-with-rdp/):  
 
 
 Leave the CLI with `exit`
