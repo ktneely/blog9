@@ -12,14 +12,17 @@ updated: 2021-08-29 02:41:49+00:00
 
 Ubuntu installation instructions: <https://docs.docker.com/engine/install/ubuntu/>
 
-` sudo apt-get update
+```
+sudo apt-get update
  sudo apt-get install \
     apt-transport-https \
     ca-certificates \
     curl \
     gnupg \
     lsb-release`
-    
+```
+
+
 `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg`
 
 Add the stable repository
