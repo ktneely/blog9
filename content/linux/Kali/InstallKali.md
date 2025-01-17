@@ -85,7 +85,7 @@ Sometimes a full install is not required.  This is where [Kali's Metapackages](h
 # Install Kali in Windows Services for Linux  (WSL)
 Kali on Windows has a base install “kex” and this can be run in some different modes, such as seamless, in a window, etc.
 
-Install instructions <https://www.kali.org/docs/wsl/win-kex/>
+[Install instructions](https://www.kali.org/docs/wsl/win-kex/)
 
 Launch the Kali terminal from the normal Windows start menus
 
