@@ -1,16 +1,17 @@
 ---
 created: 1970-01-01 00:00:00+00:00
 source_application: cherrytree
-tags: []
+tags:
+  - Linux
+  - virtualization
 title: VirtualMachines
 updated: 2021-08-29 02:41:49+00:00
 ---
 
-
 ## **Install Docker**    
 ### **Add Docker’s official GPG key**
 
-Ubuntu installation instructions: <https://docs.docker.com/engine/install/ubuntu/>
+Ubuntu [installation instructions](https://docs.docker.com/engine/install/ubuntu/):
 
 ```
 sudo apt-get update
@@ -23,25 +24,31 @@ sudo apt-get update
 ```
 
 
-`curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg`
+#### Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-Add the stable repository
-`echo \
-  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
-  
+#### Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
 Install docker engine
-`sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
-`  
-  
-  
+```
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
 ### docker-compose
 
 ~~`sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
 `sudo chmod +x /usr/local/bin/docker-compose`~~
 
-Docker compose is now a part of Docker by defaut and is invoked without a hyphen, like `docker compose`.
+Docker compose is now a part of the Docker packages and now invoked without a hyphen, like `docker compose`.  It should have been installed in the command above.
 
 ## VirtualBox 6
 - Win10 VM (from Pur-3.
