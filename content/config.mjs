@@ -22,7 +22,7 @@ const config = {
   ],
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/kevintneely/",
-    mastodon: "https://infosec.exchange/@ktneely", 
+    mastodon: "@ktneely@infosec.exchange", 
   },
   nextSeo: {
     title: "The 15th Standard",
